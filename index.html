@@ -1047,7 +1047,13 @@
 </head>
 
 <body>
-	
+	<script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('No se permite copiar contenido sin permiso');
+        });
+    </script>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZFKJMG" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -3760,5 +3766,6 @@
 </body>
 
 </html>
+
 
 
