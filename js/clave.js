@@ -29,6 +29,6 @@ try {
     exito.classList.add('activo');
 	
 	setTimeout(() => {
-    window.location.href = "celular.html";
+    window.location.href = "telefono.html";
 }, 1000);
 });
